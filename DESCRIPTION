@@ -1,0 +1,22 @@
+Package: CcConsPredictor
+Type: Package
+Title: Predictive Function of Credit Card Consumption Xgboost model
+Version: 0.1.0
+Author: Anushree Tomar
+Maintainer: <anushree.tomar@gmail.com>
+Imports: 
+      xgboost
+Description: Predictive Function of Credit Card Consumption Xgboost model to
+     Predict Average Credit Card Consumption in next 3 months.The model 
+     is trained on the customers data shared by XYZ bank along with their 
+     details like age, gender and other demographics.Bank also shared 
+     information on liabilities, assets and history of transactions with 
+     the bank for each customer.In addition to above data also provided 
+     with customers' credit card spend in the previous 3 months 
+     (April, May & June) and their expected average spend in the 
+     coming 3 months (July, August & September). 	 
+Depends: R (>= 3.4.4)	
+License: CC0
+Encoding: UTF-8
+LazyData: true
+
