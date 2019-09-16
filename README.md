@@ -25,7 +25,7 @@ AmExpert decipHER – Women Machine Learning Hackathon
 
 # Data Attributes
 
-### Variable	### Description
+ *Variable*	   *Description*
 * id	Unique ID for every Customer
 * account_type	Account Type – current or saving
 * gender	Gender of customer-M or F
