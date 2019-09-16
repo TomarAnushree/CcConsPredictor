@@ -25,7 +25,7 @@ AmExpert decipHER – Women Machine Learning Hackathon
 
 # Data Attributes
 
-###Variable	###Description
+### Variable	### Description
 * id	Unique ID for every Customer
 * account_type	Account Type – current or saving
 * gender	Gender of customer-M or F
@@ -74,9 +74,13 @@ AmExpert decipHER – Women Machine Learning Hackathon
 # How to use
 
 R version 3.4.4
+
 > library(remotes)
+
 > install_github("TomarAnushree/CcConsPredictor")
+
 > library(CcConsPredictor)
+
 > pred_cc_cons(test)# leaving "id" column
 
 
